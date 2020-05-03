@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>658292407251-13ijp2m03dfvp46aruecd0j1rv55g3p2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.658292407251-13ijp2m03dfvp46aruecd0j1rv55g3p2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>658292407251-nihcl24d1uh84fq0tjm51cchc9r7qm8o.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBsasYGUrG6un9C85c_cZtTHBygombw-HE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>658292407251</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.BelJomla.WholesaleStore</string>
+	<key>PROJECT_ID</key>
+	<string>senior-project-f124e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>senior-project-f124e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:658292407251:ios:b6df44b88e1b5869708d26</string>
+	<key>DATABASE_URL</key>
+	<string>https://senior-project-f124e.firebaseio.com</string>
+</dict>
+</plist>
