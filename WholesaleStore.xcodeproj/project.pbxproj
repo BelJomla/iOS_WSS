@@ -16,6 +16,13 @@
 		254A24C4245E316700165C5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 254A24C3245E316700165C5A /* GoogleService-Info.plist */; };
 		254A24C6245E344D00165C5A /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A24C5245E344D00165C5A /* OrdersViewController.swift */; };
 		254A24C8245E347E00165C5A /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A24C7245E347E00165C5A /* ItemsViewController.swift */; };
+		254A24EA2461A93B00165C5A /* Constants .swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A24E92461A93B00165C5A /* Constants .swift */; };
+		254A24ED2461AFC400165C5A /* deliveryPersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A24EB2461AFC400165C5A /* deliveryPersonCell.swift */; };
+		254A24EE2461AFC400165C5A /* deliveryPersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254A24EC2461AFC400165C5A /* deliveryPersonCell.xib */; };
+		254A24F12461CEE800165C5A /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A24EF2461CEE800165C5A /* itemCell.swift */; };
+		254A24F22461CEE800165C5A /* itemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254A24F02461CEE800165C5A /* itemCell.xib */; };
+		254A24F42461EDAA00165C5A /* DeliverPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A24F32461EDAA00165C5A /* DeliverPerson.swift */; };
+		254A24F62461F5B100165C5A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A24F52461F5B100165C5A /* Item.swift */; };
 		6A2BF69C370A0DDED9E557CE /* Pods_WholesaleStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993B6BBE1202EAE3F9FD2021 /* Pods_WholesaleStore.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +38,13 @@
 		254A24C3245E316700165C5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		254A24C5245E344D00165C5A /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		254A24C7245E347E00165C5A /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		254A24E92461A93B00165C5A /* Constants .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants .swift"; sourceTree = "<group>"; };
+		254A24EB2461AFC400165C5A /* deliveryPersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deliveryPersonCell.swift; sourceTree = "<group>"; };
+		254A24EC2461AFC400165C5A /* deliveryPersonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = deliveryPersonCell.xib; sourceTree = "<group>"; };
+		254A24EF2461CEE800165C5A /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		254A24F02461CEE800165C5A /* itemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemCell.xib; sourceTree = "<group>"; };
+		254A24F32461EDAA00165C5A /* DeliverPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverPerson.swift; sourceTree = "<group>"; };
+		254A24F52461F5B100165C5A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3530A28963736BD4E3AC17BD /* Pods-WholesaleStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WholesaleStore.release.xcconfig"; path = "Target Support Files/Pods-WholesaleStore/Pods-WholesaleStore.release.xcconfig"; sourceTree = "<group>"; };
 		8902A03A2451B31C6FA977A6 /* Pods-WholesaleStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WholesaleStore.debug.xcconfig"; path = "Target Support Files/Pods-WholesaleStore/Pods-WholesaleStore.debug.xcconfig"; sourceTree = "<group>"; };
 		993B6BBE1202EAE3F9FD2021 /* Pods_WholesaleStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WholesaleStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +90,7 @@
 				254A24C2245E30F500165C5A /* Controllers */,
 				254A24B5245E30CA00165C5A /* Assets.xcassets */,
 				254A24B7245E30CA00165C5A /* LaunchScreen.storyboard */,
+				254A24E92461A93B00165C5A /* Constants .swift */,
 				254A24BA245E30CA00165C5A /* Info.plist */,
 				254A24C3245E316700165C5A /* GoogleService-Info.plist */,
 			);
@@ -85,6 +100,8 @@
 		254A24C0245E30D300165C5A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				254A24F32461EDAA00165C5A /* DeliverPerson.swift */,
+				254A24F52461F5B100165C5A /* Item.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,6 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				254A24B2245E30C700165C5A /* Main.storyboard */,
+				254A24EB2461AFC400165C5A /* deliveryPersonCell.swift */,
+				254A24EC2461AFC400165C5A /* deliveryPersonCell.xib */,
+				254A24EF2461CEE800165C5A /* itemCell.swift */,
+				254A24F02461CEE800165C5A /* itemCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,10 +205,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254A24F22461CEE800165C5A /* itemCell.xib in Resources */,
 				254A24B9245E30CA00165C5A /* LaunchScreen.storyboard in Resources */,
 				254A24C4245E316700165C5A /* GoogleService-Info.plist in Resources */,
 				254A24B6245E30CA00165C5A /* Assets.xcassets in Resources */,
 				254A24B4245E30C700165C5A /* Main.storyboard in Resources */,
+				254A24EE2461AFC400165C5A /* deliveryPersonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +263,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254A24F62461F5B100165C5A /* Item.swift in Sources */,
+				254A24F42461EDAA00165C5A /* DeliverPerson.swift in Sources */,
+				254A24F12461CEE800165C5A /* itemCell.swift in Sources */,
 				254A24C8245E347E00165C5A /* ItemsViewController.swift in Sources */,
 				254A24B1245E30C700165C5A /* ViewController.swift in Sources */,
 				254A24AD245E30C700165C5A /* AppDelegate.swift in Sources */,
 				254A24AF245E30C700165C5A /* SceneDelegate.swift in Sources */,
+				254A24ED2461AFC400165C5A /* deliveryPersonCell.swift in Sources */,
+				254A24EA2461A93B00165C5A /* Constants .swift in Sources */,
 				254A24C6245E344D00165C5A /* OrdersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
