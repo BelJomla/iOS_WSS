@@ -8,6 +8,7 @@ class OrdersViewController: UIViewController {
 
     @IBOutlet weak var tableViewDP: UITableView!
     let db = Firestore.firestore()
+    let firestoreSettings = FirestoreSettings()
     
     var deliveryPerson: [DeliveryPerson] = [];
     var dbData: [Any] = [];
@@ -19,6 +20,7 @@ class OrdersViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.setHidesBackButton(true, animated: true);
+        firestoreSettings.isPersistenceEnabled = false
         // Do any additional setup after loading the view.
         tableViewDP.delegate = self
         tableViewDP.dataSource = self
@@ -62,10 +64,10 @@ class OrdersViewController: UIViewController {
                         } else {
                             print("error")
                         }
-                        DispatchQueue.main.async {
-                            self.tableViewDP.reloadData()
-                        }
                         
+                    }
+                    DispatchQueue.main.async {
+                        self.tableViewDP.reloadData()
                     }
                 }
             }
@@ -74,7 +76,8 @@ class OrdersViewController: UIViewController {
     
     func addDeliveryPerson (deliveryPersonID: String) {
         print("printing delivery person ID = \(deliveryPersonID)")
-        db.collection(K.KDatabase.testUser).document(deliveryPersonID)
+        db.collection(K.KDatabase.testUser)
+        .document(deliveryPersonID)
         .getDocument { (document, error) in
             if let document = document, document.exists {
                 let data = document.data()
